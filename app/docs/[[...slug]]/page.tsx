@@ -1,3 +1,4 @@
+export const runtime = 'edge'
 import { source } from '@/lib/source';
 import {
   DocsPage,
@@ -28,9 +29,9 @@ export default async function Page(props: {
   );
 }
 
-export async function generateStaticParams() {
-  return source.generateParams();
-}
+// export async function generateStaticParams() {
+//   return source.generateParams();
+// }
 
 export async function generateMetadata(props: {
   params: Promise<{ slug?: string[] }>;

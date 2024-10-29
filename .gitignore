@@ -5,6 +5,7 @@
 .contentlayer
 .content-collections
 .source
+.fleek
 
 # test & build
 /coverage
